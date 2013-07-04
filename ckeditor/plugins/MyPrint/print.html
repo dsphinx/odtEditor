@@ -1,0 +1,18 @@
+﻿<style>
+#page {
+	border:none !important;
+}
+</style>
+<script>
+
+var doc = document;
+doc.open();
+doc.write( window.opener._cke_htmlToLoad );
+doc.close();
+
+delete window.opener._cke_htmlToLoad;
+
+window.print();
+window.close();
+
+</script>

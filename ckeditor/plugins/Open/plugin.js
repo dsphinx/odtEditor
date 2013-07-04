@@ -1,0 +1,1 @@
+CKEDITOR.plugins.add('Open',{icons:'OpenFile',init:function(editor){editor.ui.addButton('Open',{label:'Open File',command:'open',toolbar:'document'});editor.addCommand('open',new CKEDITOR.dialogCommand('open'));CKEDITOR.dialog.add('open',this.path+'dialogs/open.js');}});
