@@ -104,7 +104,6 @@
 
 	// Register a plugin named "preview".
 	CKEDITOR.plugins.add( pluginName, {
-		lang: 'de,en',
 		icons: 'Print', // %REMOVE_LINE_CORE%
 		init: function( editor ) {
 

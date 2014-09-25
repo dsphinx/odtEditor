@@ -92,7 +92,7 @@
 				defaultLanguage: 'de',
 				allowedContent: true,
 				minimumChangeMilliseconds: 1000,
-				extraPlugins: 'wysiwygarea,removeformat,MySave,MyPrint,getOdt,close,getPDF',
+				extraPlugins: 'wysiwygarea,close,removeformat,MySave,MyPrint,getOdt,getPDF',
 				toolbar: [
 					{ name: 'document', items : [ 'Source','Save','DocProps','Preview','Print','GetOdt','getPDF','Open','Close' ] },
 					{ name: 'clipboard', items : [ 'Cut','Copy','Paste','PasteText','PasteFromWord','-','Undo','Redo' ] },
