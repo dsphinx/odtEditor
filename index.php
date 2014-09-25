@@ -8,7 +8,7 @@
 		echo "<title>".$return['title']."</title>";
 	?>
 	<script src="ckeditor/ckeditor.js"></script>
-	<script src="jquery-1.9.js"></script>
+	<script src="jquery-1.11.1.min.js"></script>
 	<script>
 		CKEDITOR.on('instanceReady', function( evt ) {
 			var editor = evt.editor;
